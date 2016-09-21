@@ -1,0 +1,103 @@
+$ 1.6.1
+	% 1.6.1
+		_ August 29, 2013
+			* Fixed some slight issues when teachers don't have any assignments
+$ 1.6
+	% 1.6
+		_ August 29, 2013
+			* Changed ordering of teacher page
+			* Removed Carvill and Heeren
+			* Added Pacowta
+			* Changed the email teacher page
+$ 1.5.9
+	% 1.5.9
+		_ March 11, 2013
+			* Changed how the changelog looks
+$ 1.5.8
+	% 1.5.8
+		_ March 11, 2013
+			* Changed code once more
+$ 1.5.7
+	% 1.5.7
+		_ March 11, 2013
+			* Changed more button code
+$ 1.5.6
+	% 1.5.6
+		_ March 11, 2013
+			* Changed code associated with buttons
+$ 1.5.5
+	% 1.5.5
+		_ March 11, 2013
+			* Fixed issue with announcements
+$ 1.5.4
+	% 1.5.4
+		_ March 8, 2013
+			* Changed animations
+$ 1.5.3
+	% 1.5.3
+		_ March 6, 2013
+			* Fixed the slight issue that was previously fixed
+$ 1.5.2
+	% 1.5.2
+		_ March 6, 2013
+			* Fixed slight issue with adding events to calendar
+$ 1.5.1
+	% 1.5.1
+		_ March 6, 2013
+			* Re-enabled ability to add items to calendar
+$ 1.5
+	% 1.5
+		_ March 6, 2013
+			* Temporarily removed the ability to add events to the calendar
+			* Announcements can now be viewed from the app
+			* Added separators between teachers' assignments when multiple are selected
+			* Can now view current and past assignments
+			* Rows in the assignment list now shows assignment name and description
+			* Assignment list rows now alternate color for ease of reading
+			* Can now see which course the assignment is for as well as any attachments it has
+			* Fixed issues when trying to email teachers
+			* App now caches assignments for offline viewing
+			* App now caches announcements for offline viewing
+			* App now shows alert if phone is not connected to any networks
+			* Changed how the bell schedule looks
+			* Added ability to select or deselect all teachers for both emailing and assignment viewing
+			* Removed external dependencies
+			* Changed how the app looks depending on Android 
+			* Changed how the app displays an assignment's information when you click on it
+			* App now saves the teachers selected on the teachers screen for ease of use (not the email screen)
+$ 1.4.1
+	% 1.4.1
+		_ December 19, 2012
+			* Fixed even more spelling
+$ 1.4
+	% 1.4
+		_ December 13, 2012
+			* Added an email page to allow you to email multiple teachers at a time
+  			* Changed how the assignments are retrieved
+  			* Can now select multiple teachers to view more than one teachers' assignments at one time
+  			* App alerts you if you do not select at least one teacher to either email or view their assignments
+$ 1.3.1
+	% 1.3.1
+		_ December 3, 2012
+			* Fixed some spelling
+$ 1.3
+	% 1.3
+		_ September 24, 2012
+			* Changed how the bell schedule is retrieved
+			* Changed how the bell schedule and assignments are loaded
+			* When you add an assignment to your calendar, the description is now automatically added (you can change what it says, of course)
+			* Fixed list item sizing
+$ 1.2
+	% 1.2
+		_ September 18, 2012
+			* Added changelog
+			* Added ability to create calendar events
+$ 1.1
+	% 1.1
+		_ September 18, 2012
+			* You can now email teachers from the app
+$ 1.0
+	% 1.0
+		_ September 17, 2012
+			* CATNIP Mobile released
+$ END_OF_CHANGE_LOG

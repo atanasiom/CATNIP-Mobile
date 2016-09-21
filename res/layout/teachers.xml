@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/assignmentBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/teacher1" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox2"
+        android:text="@string/teacher3" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox4"
+        android:text="@string/teacher5" />
+
+    <Button
+        android:id="@+id/assignmentsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="showAssignments"
+        android:text="@string/button_assignments" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/teacher2" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="showSchedule"
+        android:text="@string/button_schedule" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assignmentBox4"
+        android:text="@string/teacher6" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assignmentBox2"
+        android:text="@string/teacher4" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox5"
+        android:text="@string/teacher7" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assignmentBox6"
+        android:text="@string/teacher8" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox7"
+        android:text="@string/teacher9" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assignmentBox8"
+        android:text="@string/teacher10" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox9"
+        android:text="@string/teacher11" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/assignmentBox10"
+        android:text="@string/teacher12" />
+
+    <CheckBox
+        android:id="@+id/assignmentBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/assignmentBox11"
+        android:text="@string/teacher13" />
+
+</RelativeLayout>

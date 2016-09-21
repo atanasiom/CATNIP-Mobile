@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">CATNIP Mobile</string>
+    <string name="title_activity_main">CATNIP Mobile</string>
+    <string name="description_teachers">Select teachers to view assignments</string>
+    <string name="teacher1">Alcott</string>
+    <string name="teacher2">Borg</string>
+    <string name="teacher3">Dickman</string>
+    <string name="teacher4">Frewin</string>
+    <string name="teacher5">Garbutt</string>
+    <string name="teacher6">Lake</string>
+    <string name="teacher7">Leadbetter</string>
+    <string name="teacher8">Ness</string>
+    <string name="teacher9">Pacowta</string>
+    <string name="teacher10">Penkethman</string>
+    <string name="teacher11">Schneider</string>
+    <string name="teacher12">Tencza</string>
+    <string name="teacher13">Zavadil</string>
+    <string name="button_schedule">Schedule</string>
+    <string name="button_assignments">Assignments</string>
+    <string name="description_email">Select teachers to email</string>
+    <string name="button_current">Current</string>
+    <string name="button_past">Past</string>
+    <string name="no_current_assignments">No current assignments</string>
+    <string name="no_past_assignments">No past assignments</string>
+    <string name="description_announcements">View announcements</string>
+    <string name="no_announcements">No announcements</string>
+    <string name="button_email">Email</string>
+    <string name="refresh">Refresh</string>
+    <string name="select_all">Select all</string>
+    <string name="deselect">Deselect all</string>
+    <string name="button_announcements">News</string>
+    <string name="button_teachers">Teachers</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/scheduleTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:textIsSelectable="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/teachersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/description_teachers"
+        android:drawableTop="@drawable/ic_action_teachers"
+        android:onClick="showTeachers"
+        android:text="Teachers"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/announcementsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/teachersButton"
+        android:contentDescription="@string/description_announcements"
+        android:drawableTop="@drawable/ic_action_announcements"
+        android:onClick="showAnnouncements"
+        android:text="Announcements"
+        android:textSize="9sp" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/announcementsButton"
+        android:contentDescription="@string/description_email"
+        android:drawableTop="@drawable/ic_action_email"
+        android:onClick="emailTeachers"
+        android:text="Email Faculty"
+        android:textSize="9sp" />
+
+    <!--
+         <Button
+        android:id="@+id/aboutcatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/description_announcements"
+        android:drawableTop="@drawable/ic_action_about"
+        android:text="About Cat"
+        android:textSize="9sp" />
+    -->
+
+</RelativeLayout>

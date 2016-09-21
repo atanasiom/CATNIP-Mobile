@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/emailBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/teacher1" />
+
+    <CheckBox
+        android:id="@+id/emailBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox1"
+        android:text="@string/teacher2" />
+
+    <CheckBox
+        android:id="@+id/emailBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox2"
+        android:text="@string/teacher3" />
+
+    <CheckBox
+        android:id="@+id/emailBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox3"
+        android:text="@string/teacher4" />
+
+    <CheckBox
+        android:id="@+id/emailBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox4"
+        android:text="@string/teacher5" />
+
+    <CheckBox
+        android:id="@+id/emailBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox5"
+        android:text="@string/teacher6" />
+
+    <CheckBox
+        android:id="@+id/emailBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailBox6"
+        android:text="@string/teacher7" />
+
+    <CheckBox
+        android:id="@+id/emailBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailBox2"
+        android:layout_alignParentRight="true"
+        android:text="@string/teacher8" />
+
+    <CheckBox
+        android:id="@+id/emailBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emailBox8"
+        android:text="@string/teacher9" />
+
+    <CheckBox
+        android:id="@+id/emailBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emailBox9"
+        android:text="@string/teacher10" />
+
+    <CheckBox
+        android:id="@+id/emailBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailBox5"
+        android:layout_alignParentRight="true"
+        android:text="@string/teacher11" />
+
+    <CheckBox
+        android:id="@+id/emailBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/emailBox11"
+        android:text="@string/teacher12" />
+
+    <CheckBox
+        android:id="@+id/emailBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailBox7"
+        android:layout_alignParentRight="true"
+        android:text="@string/teacher13" />
+
+    <Button
+        android:id="@+id/emailTeachersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="emailTeachers"
+        android:text="@string/button_email" />
+
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="showSchedule"
+        android:text="@string/button_schedule" />
+
+</RelativeLayout>
