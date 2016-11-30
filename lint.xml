@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="EasterEgg" severity="informational" />
+    <issue id="IconExpectedSize" severity="warning" />
+    <issue id="NewApi" severity="warning" />
+    <issue id="StopShip" severity="warning" />
+    <issue id="TypographyQuotes" severity="warning" />
+    <issue id="UnusedIds" severity="warning" />
+</lint>

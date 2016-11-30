@@ -1,0 +1,204 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.cat.catnip.mobile.AboutCat
+com.cat.catnip.mobile.AboutCat: AboutCat()
+com.cat.catnip.mobile.Announcements
+com.cat.catnip.mobile.Announcements: Announcements()
+com.cat.catnip.mobile.AssignmentList
+com.cat.catnip.mobile.AssignmentList: AssignmentList()
+com.cat.catnip.mobile.AssignmentList: void gotoPast(android.view.View)
+com.cat.catnip.mobile.AssignmentList: void gotoCurrent(android.view.View)
+com.cat.catnip.mobile.ChangeLog$Listmode: com.cat.catnip.mobile.ChangeLog$Listmode[] values()
+com.cat.catnip.mobile.ChangeLog$Listmode: com.cat.catnip.mobile.ChangeLog$Listmode valueOf(java.lang.String)
+com.cat.catnip.mobile.Email
+com.cat.catnip.mobile.Email: Email()
+com.cat.catnip.mobile.MainActivity
+com.cat.catnip.mobile.MainActivity: MainActivity()
+com.cat.catnip.mobile.MainActivity: void showTeachers(android.view.View)
+com.cat.catnip.mobile.MainActivity: void emailTeachers(android.view.View)
+com.cat.catnip.mobile.MainActivity: void showAbout(android.view.View)
+com.cat.catnip.mobile.MainActivity: void showAnnouncements(android.view.View)
+com.cat.catnip.mobile.R$array: int action_list
+com.cat.catnip.mobile.R$color: int White
+com.cat.catnip.mobile.R$color: int grey
+com.cat.catnip.mobile.R$color: int white
+com.cat.catnip.mobile.R$drawable: int ic_action_about
+com.cat.catnip.mobile.R$drawable: int ic_action_announcements
+com.cat.catnip.mobile.R$drawable: int ic_action_email
+com.cat.catnip.mobile.R$drawable: int ic_action_refresh
+com.cat.catnip.mobile.R$drawable: int ic_action_teachers
+com.cat.catnip.mobile.R$drawable: int ic_launcher
+com.cat.catnip.mobile.R$id: int aboutText
+com.cat.catnip.mobile.R$id: int aboutcatButton
+com.cat.catnip.mobile.R$id: int announcementsButton
+com.cat.catnip.mobile.R$id: int announcementsList
+com.cat.catnip.mobile.R$id: int assignmentBox1
+com.cat.catnip.mobile.R$id: int assignmentBox10
+com.cat.catnip.mobile.R$id: int assignmentBox11
+com.cat.catnip.mobile.R$id: int assignmentBox12
+com.cat.catnip.mobile.R$id: int assignmentBox13
+com.cat.catnip.mobile.R$id: int assignmentBox2
+com.cat.catnip.mobile.R$id: int assignmentBox3
+com.cat.catnip.mobile.R$id: int assignmentBox4
+com.cat.catnip.mobile.R$id: int assignmentBox5
+com.cat.catnip.mobile.R$id: int assignmentBox6
+com.cat.catnip.mobile.R$id: int assignmentBox7
+com.cat.catnip.mobile.R$id: int assignmentBox8
+com.cat.catnip.mobile.R$id: int assignmentBox9
+com.cat.catnip.mobile.R$id: int assignmentsButton
+com.cat.catnip.mobile.R$id: int currentButton
+com.cat.catnip.mobile.R$id: int currentList
+com.cat.catnip.mobile.R$id: int currentNoAssignmentView
+com.cat.catnip.mobile.R$id: int currentTeacher
+com.cat.catnip.mobile.R$id: int dateView
+com.cat.catnip.mobile.R$id: int descriptionView
+com.cat.catnip.mobile.R$id: int deselect
+com.cat.catnip.mobile.R$id: int emailBox1
+com.cat.catnip.mobile.R$id: int emailBox10
+com.cat.catnip.mobile.R$id: int emailBox11
+com.cat.catnip.mobile.R$id: int emailBox12
+com.cat.catnip.mobile.R$id: int emailBox13
+com.cat.catnip.mobile.R$id: int emailBox2
+com.cat.catnip.mobile.R$id: int emailBox3
+com.cat.catnip.mobile.R$id: int emailBox4
+com.cat.catnip.mobile.R$id: int emailBox5
+com.cat.catnip.mobile.R$id: int emailBox6
+com.cat.catnip.mobile.R$id: int emailBox7
+com.cat.catnip.mobile.R$id: int emailBox8
+com.cat.catnip.mobile.R$id: int emailBox9
+com.cat.catnip.mobile.R$id: int emailButton
+com.cat.catnip.mobile.R$id: int emailTeachersButton
+com.cat.catnip.mobile.R$id: int email_list
+com.cat.catnip.mobile.R$id: int listPager
+com.cat.catnip.mobile.R$id: int name
+com.cat.catnip.mobile.R$id: int noAnnouncementsView
+com.cat.catnip.mobile.R$id: int pastButton
+com.cat.catnip.mobile.R$id: int pastList
+com.cat.catnip.mobile.R$id: int pastNoAssignmentView
+com.cat.catnip.mobile.R$id: int pastTeacher
+com.cat.catnip.mobile.R$id: int refresh
+com.cat.catnip.mobile.R$id: int row
+com.cat.catnip.mobile.R$id: int scheduleButton
+com.cat.catnip.mobile.R$id: int scheduleTextView
+com.cat.catnip.mobile.R$id: int scrollView
+com.cat.catnip.mobile.R$id: int select_all
+com.cat.catnip.mobile.R$id: int separatorView
+com.cat.catnip.mobile.R$id: int teachersButton
+com.cat.catnip.mobile.R$id: int titleView
+com.cat.catnip.mobile.R$layout: int activity_about
+com.cat.catnip.mobile.R$layout: int activity_announcements
+com.cat.catnip.mobile.R$layout: int activity_assignment_list
+com.cat.catnip.mobile.R$layout: int activity_email
+com.cat.catnip.mobile.R$layout: int current_assignments
+com.cat.catnip.mobile.R$layout: int email
+com.cat.catnip.mobile.R$layout: int email_row
+com.cat.catnip.mobile.R$layout: int option_row
+com.cat.catnip.mobile.R$layout: int past_assignments
+com.cat.catnip.mobile.R$layout: int row
+com.cat.catnip.mobile.R$layout: int schedule
+com.cat.catnip.mobile.R$layout: int teacher_row
+com.cat.catnip.mobile.R$layout: int teachers
+com.cat.catnip.mobile.R$menu: int home
+com.cat.catnip.mobile.R$menu: int teachers
+com.cat.catnip.mobile.R$raw: int changelog
+com.cat.catnip.mobile.R$string: int app_name
+com.cat.catnip.mobile.R$string: int button_announcements
+com.cat.catnip.mobile.R$string: int button_assignments
+com.cat.catnip.mobile.R$string: int button_current
+com.cat.catnip.mobile.R$string: int button_email
+com.cat.catnip.mobile.R$string: int button_past
+com.cat.catnip.mobile.R$string: int button_schedule
+com.cat.catnip.mobile.R$string: int button_teachers
+com.cat.catnip.mobile.R$string: int description_announcements
+com.cat.catnip.mobile.R$string: int description_email
+com.cat.catnip.mobile.R$string: int description_teachers
+com.cat.catnip.mobile.R$string: int deselect
+com.cat.catnip.mobile.R$string: int no_announcements
+com.cat.catnip.mobile.R$string: int no_current_assignments
+com.cat.catnip.mobile.R$string: int no_past_assignments
+com.cat.catnip.mobile.R$string: int refresh
+com.cat.catnip.mobile.R$string: int select_all
+com.cat.catnip.mobile.R$string: int teacher1
+com.cat.catnip.mobile.R$string: int teacher10
+com.cat.catnip.mobile.R$string: int teacher11
+com.cat.catnip.mobile.R$string: int teacher12
+com.cat.catnip.mobile.R$string: int teacher13
+com.cat.catnip.mobile.R$string: int teacher2
+com.cat.catnip.mobile.R$string: int teacher3
+com.cat.catnip.mobile.R$string: int teacher4
+com.cat.catnip.mobile.R$string: int teacher5
+com.cat.catnip.mobile.R$string: int teacher6
+com.cat.catnip.mobile.R$string: int teacher7
+com.cat.catnip.mobile.R$string: int teacher8
+com.cat.catnip.mobile.R$string: int teacher9
+com.cat.catnip.mobile.R$string: int title_activity_main
+com.cat.catnip.mobile.R$style: int AppTheme
+com.cat.catnip.mobile.Teachers
+com.cat.catnip.mobile.Teachers: Teachers()
+com.cat.catnip.mobile.Teachers: void showSchedule(android.view.View)
+com.cat.catnip.mobile.Teachers: void showAssignments(android.view.View)
