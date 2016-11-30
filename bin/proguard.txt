@@ -1,0 +1,57 @@
+# view res/layout/activity_assignment_list.xml #generated:7
+# view small\res/layout-small/activity_assignment_list.xml #generated:7
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.cat.catnip.mobile.AboutCat { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.cat.catnip.mobile.Announcements { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.cat.catnip.mobile.AssignmentList { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.cat.catnip.mobile.Email { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.cat.catnip.mobile.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.cat.catnip.mobile.Teachers { <init>(...); }
+
+# onClick res/layout/email.xml #generated:110
+# onClick res/layout/schedule.xml #generated:29
+# onClick small\res/layout-small/email.xml #generated:110
+# onClick small\res/layout-small/schedule.xml #generated:41
+-keepclassmembers class * { *** emailTeachers(...); }
+
+# onClick res/layout/activity_assignment_list.xml #generated:22
+# onClick small\res/layout-small/activity_assignment_list.xml #generated:22
+-keepclassmembers class * { *** gotoCurrent(...); }
+
+# onClick res/layout/activity_assignment_list.xml #generated:13
+# onClick small\res/layout-small/activity_assignment_list.xml #generated:13
+-keepclassmembers class * { *** gotoPast(...); }
+
+# onClick res/layout/schedule.xml #generated:41
+-keepclassmembers class * { *** showAbout(...); }
+
+# onClick res/layout/schedule.xml #generated:18
+# onClick small\res/layout-small/schedule.xml #generated:29
+-keepclassmembers class * { *** showAnnouncements(...); }
+
+# onClick res/layout/teachers.xml #generated:30
+# onClick small\res/layout-small/teachers.xml #generated:30
+-keepclassmembers class * { *** showAssignments(...); }
+
+# onClick res/layout/email.xml #generated:119
+# onClick res/layout/teachers.xml #generated:47
+# onClick small\res/layout-small/email.xml #generated:119
+# onClick small\res/layout-small/teachers.xml #generated:47
+-keepclassmembers class * { *** showSchedule(...); }
+
+# onClick res/layout/schedule.xml #generated:6
+# onClick small\res/layout-small/schedule.xml #generated:17
+-keepclassmembers class * { *** showTeachers(...); }
+
